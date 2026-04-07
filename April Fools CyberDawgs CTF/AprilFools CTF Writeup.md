@@ -7,7 +7,7 @@
   
 This CTF was created on April 1st (April Fools), of which I didn't even realized it released. I started this CTF a few days late after the hint was already released and after it was threatened to be added to DawgCTF. I could not allow this to happen!
 ## The Givens
-Looking at the already posted information on the CTF, I am given an image of the Virginia Cavaliers logo, along with the following hint posted the day after the initial challenge.
+Looking at the already posted information on the CTF, I am given an image of the Virginia Cavaliers logo, along with a hint posted the day after the initial challenge.
 
 There were a few things I noted when going into this challenge and looking at the hint. 
 First off, the flag is in the form of AprilFools{*FLAG*}.
