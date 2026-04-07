@@ -58,8 +58,8 @@ As a callback from the hint, we were given *usenumbers* and *XORUTF8*. We also k
 Of which it outputs: 03401034570  
 ``AprilFools{sfphdmdd]np[bZvkvrv`y``
 
-After a bit of good ole' brute force shenanigans, I found the actual key is just 0340103457 and the zero that I removed was the start of it repeating the XOR cipher. We get the following output:
-`AprilFools{patience_is_a_virtue}`
+After a bit of good ole' brute force shenanigans, I found the actual key is just 0340103457 and the zero that I removed was the start of it repeating the XOR cipher. We get the following output:  
+`AprilFools{patience_is_a_virtue}`  
 This is related to the song from earlier so it's probably what I was looking for.
 
 Hooray we got the flag!
