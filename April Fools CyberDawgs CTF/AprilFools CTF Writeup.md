@@ -1,8 +1,8 @@
-*Challenge Author: Takumi*
-*Categories: Steganography, Cryptography, OSINT(?)*
-*Date Released: April 1st, 2026*
-*Date Completed: April 6th, 2026*
-*Provided files: chal.jpg*
+- *Challenge Author: Takumi*
+- *Categories: Steganography, Cryptography, OSINT(?)*
+- *Date Released: April 1st, 2026*
+- *Date Completed: April 6th, 2026*
+- *Provided files: chal.jpg*
 # About this Challenge
 This CTF was created on April 1st (April Fools), of which I didn't even realized it released. I started this CTF a few days late after the hint was already released and after it was threatened to be added to DawgCTF. I could not allow this to happen!
 ## The Givens
@@ -69,7 +69,7 @@ Hooray we got the flag!
 4. I decrypted the string in the YouTube with a crib to find the full number to XOR with and get the flag
 
 ## Tools Used
-[Aperi'solve](https://www.aperisolve.com)
-[Stegseek](https://github.com/RickdeJager/stegseek)
-[dCode](https://www.dcode.fr/en)
-[CyberChef](https://cyberchef.org/)
+- [Aperi'solve](https://www.aperisolve.com)
+- [Stegseek](https://github.com/RickdeJager/stegseek)
+- [dCode](https://www.dcode.fr/en)
+- [CyberChef](https://cyberchef.org/)
