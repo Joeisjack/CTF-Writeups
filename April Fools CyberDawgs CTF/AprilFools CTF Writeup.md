@@ -29,7 +29,7 @@ The way I found out the passcode for this steg was also through the use of stegs
 I'll be honest, if this wasn't the intended solution, then I don't know how you would be able to find the passphrase at all.
 ## Part 2: Cryptography + OSINT maybe
 Now we are back into the realm of what I can do with my own prior knowledge. From the steg, I got some pretty obvious base64 text:  
-`aHR0cDovL3RpbnkuY2MvZmo2MTEwMQ==`
+`aHR0cDovL3RpbnkuY2MvZmo2MTEwMQ==`  
 Taking this a turning into text we get a link to a video called *Pop Cat learns to sing* by The Roller:  
 `http://tiny.cc/fj61101`
 
