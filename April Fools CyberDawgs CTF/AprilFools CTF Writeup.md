@@ -1,4 +1,5 @@
-# About this Challenge
+# AprilFools CTF Writeup
+## About this Challenge
 - *Challenge Author: Takumi*
 - *Categories: Steganography, Cryptography, OSINT(?)*
 - *Date Released: April 1st, 2026*
