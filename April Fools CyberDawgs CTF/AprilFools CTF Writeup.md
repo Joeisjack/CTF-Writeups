@@ -18,13 +18,13 @@ Given only an image file, I used an image editor for some image manipulation to 
 Through my analysis of the image itself, I found out that steganography(steg) was used, or some form of hidden string, in the image itself. This was the vector I used to get into the next steps of the CTF.
 
 [Stegseek](https://github.com/RickdeJager/stegseek) is a goated tool for this kind of problem. Through it I found the seed used for the steg.
-![[afCTFimg1.png]]
+![Image showing the seed for the steg on the image](afCTFimg1.png)
 Though that is good to know, I am still no closer to finding the hidden message in the image.
 ### Attempts Before the Steg Crack
 Before actually finding the hidden message, I encountered many dead ends when looking for the passkey to unlock the hidden message. I tried using April 1st and its other forms, I tried using the seed from Stegseek, I even tried extracting every word from the Virginia Cavaliers Wikipedia page and checking if that ends up working, all of which did not work.
 ### The Crack
 The way I found out the passcode for this steg was also through the use of stegseek and utilizing the RockYou wordlist. This instantly gave me a hit! *godawgs*!
-![[afCTFimg2.png]]
+![Image showing the found passphrase for the steg](afCTFimg2.png)
 I'll be honest, if this wasn't the intended solution, then I don't know how you would be able to find the passphrase at all.
 ## Part 2: Cryptography + OSINT maybe
 Now we are back into the realm of what I can do with my own prior knowledge. From the steg, I got some pretty obvious base64 text:
@@ -52,7 +52,7 @@ The third is interesting though, I gamble that this is the final step and what I
 
 As a callback from the hint, we were given *usenumbers* and *XORUTF8*. We also know that the flag is in the form of AprilFools{*FLAG*} of which we can use as a crib to find the full string to XOR with. I whipped up the following to get a fragment of the key.
 
-![[afCTFimg3.png]]
+![Image showing my code for finding the key using a crib](afCTFimg3.png)
 
 Of which it outputs: 03401034570
 ``AprilFools{sfphdmdd]np[bZvkvrv`y``
