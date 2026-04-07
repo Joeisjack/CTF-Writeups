@@ -18,18 +18,18 @@ Given only an image file, I used an image editor for some image manipulation to 
 Through my analysis of the image itself, I found out that steganography(steg) was used, or some form of hidden string, in the image itself. This was the vector I used to get into the next steps of the CTF.
 
 [Stegseek](https://github.com/RickdeJager/stegseek) is a goated tool for this kind of problem. Through it I found the seed used for the steg.
-![Image showing the seed for the steg on the image](afCTFimg1.png)
+![Image showing the seed for the steg on the image](afCTFimg1.png)  
 Though that is good to know, I am still no closer to finding the hidden message in the image.
 ### Attempts Before the Steg Crack
 Before actually finding the hidden message, I encountered many dead ends when looking for the passkey to unlock the hidden message. I tried using April 1st and its other forms, I tried using the seed from Stegseek, I even tried extracting every word from the Virginia Cavaliers Wikipedia page and checking if that ends up working, all of which did not work.
 ### The Crack
-The way I found out the passcode for this steg was also through the use of stegseek and utilizing the RockYou wordlist. This instantly gave me a hit! *godawgs*!
+The way I found out the passcode for this steg was also through the use of stegseek and utilizing the RockYou wordlist. This instantly gave me a hit! *godawgs*!  
 ![Image showing the found passphrase for the steg](afCTFimg2.png)
 I'll be honest, if this wasn't the intended solution, then I don't know how you would be able to find the passphrase at all.
 ## Part 2: Cryptography + OSINT maybe
-Now we are back into the realm of what I can do with my own prior knowledge. From the steg, I got some pretty obvious base64 text:
+Now we are back into the realm of what I can do with my own prior knowledge. From the steg, I got some pretty obvious base64 text:  
 `aHR0cDovL3RpbnkuY2MvZmo2MTEwMQ==`
-Taking this a turning into text we get a link to a video called *Pop Cat learns to sing* by The Roller:
+Taking this a turning into text we get a link to a video called *Pop Cat learns to sing* by The Roller:  
 `http://tiny.cc/fj61101`
 
 Be warned, as the channel describes, this is in fact a rick roll😨
@@ -42,9 +42,9 @@ The Takumi channel has only one video on their account titled *my favorite song 
 
 While the song is cool and all, I needed a thread to keep going and find the flag somewhere in the video. What I found was throughout the video periodically, three different strings appears at the bottom of the video.
 
-`AprilFools{yOu_r34lly_thOught_1t_wOuld_b3_th4t_ea5y}`
-`AprilFools{7ry_again_!}`
-`qCFY]v\[YDKCUDXU]WPhY@kQnFZFABUN`
+`AprilFools{yOu_r34lly_thOught_1t_wOuld_b3_th4t_ea5y}`  
+`AprilFools{7ry_again_!}`  
+`qCFY]v\[YDKCUDXU]WPhY@kQnFZFABUN`  
 
 The first two are definitely a red herring or a lie, so I did not even attempt to submit those.
 
