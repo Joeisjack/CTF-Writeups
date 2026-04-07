@@ -3,7 +3,7 @@
 - *Categories: Steganography, Cryptography, OSINT(?)*
 - *Date Released: April 1st, 2026*
 - *Date Completed: April 6th, 2026*
-- *Provided files: chal.jpg*
+- *Provided files: chal.jpg*  
 This CTF was created on April 1st (April Fools), of which I didn't even realized it released. I started this CTF a few days late after the hint was already released and after it was threatened to be added to DawgCTF. I could not allow this to happen!
 ## The Givens
 Looking at the already posted information on the CTF, I am given an image of the Virginia Cavaliers logo, along with the following hint posted the day after the initial challenge.
