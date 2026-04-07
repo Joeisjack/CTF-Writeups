@@ -1,9 +1,9 @@
+# About this Challenge
 - *Challenge Author: Takumi*
 - *Categories: Steganography, Cryptography, OSINT(?)*
 - *Date Released: April 1st, 2026*
 - *Date Completed: April 6th, 2026*
 - *Provided files: chal.jpg*
-# About this Challenge
 This CTF was created on April 1st (April Fools), of which I didn't even realized it released. I started this CTF a few days late after the hint was already released and after it was threatened to be added to DawgCTF. I could not allow this to happen!
 ## The Givens
 Looking at the already posted information on the CTF, I am given an image of the Virginia Cavaliers logo, along with the following hint posted the day after the initial challenge.
@@ -24,7 +24,7 @@ Though that is good to know, I am still no closer to finding the hidden message 
 Before actually finding the hidden message, I encountered many dead ends when looking for the passkey to unlock the hidden message. I tried using April 1st and its other forms, I tried using the seed from Stegseek, I even tried extracting every word from the Virginia Cavaliers Wikipedia page and checking if that ends up working, all of which did not work.
 ### The Crack
 The way I found out the passcode for this steg was also through the use of stegseek and utilizing the RockYou wordlist. This instantly gave me a hit! *godawgs*!  
-![Image showing the found passphrase for the steg](afCTFimg2.png)
+![Image showing the found passphrase for the steg](afCTFimg2.png)  
 I'll be honest, if this wasn't the intended solution, then I don't know how you would be able to find the passphrase at all.
 ## Part 2: Cryptography + OSINT maybe
 Now we are back into the realm of what I can do with my own prior knowledge. From the steg, I got some pretty obvious base64 text:  
